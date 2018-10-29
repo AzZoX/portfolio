@@ -1,19 +1,41 @@
+@font-face
+{
+	font-family: HeroesLegend;
+	src: url("../fonts/Heroes Legend.ttf");
+}
+
+body
+{
+	background-color: #FAE7EA !important; /* light-gray */
+}
+
+body .fill-height
+{
+  height: 100vh;
+}
+
 body > .container-fluid
 {
 	padding: 0px;
 }
 
-body > .jumbotron
-{
-	margin-bottom: 0px !important;
-}
-
-.jumbotron
-{
-	text-align: center;
-}
-
 .navbar li
 {
 	text-align: center;
+}
+
+/* Catégories */
+
+.cat_title > span
+{
+	font-family: HeroesLegend;
+	font-size: 24px;
+}
+
+
+.cat_img_left > img
+{
+	width: 40%;
+    height: auto;
+    display: inline-block;
 }
