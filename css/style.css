@@ -12,3 +12,8 @@ body > .jumbotron
 {
 	text-align: center;
 }
+
+.navbar li
+{
+	text-align: center;
+}
