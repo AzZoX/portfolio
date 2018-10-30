@@ -7,6 +7,9 @@
 		<meta name="author" content="">
 		<meta name="description" content="">
 		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/modal_images.js"></script>
+
 		<link rel="stylesheet" href="css/style.css">
 
 		<!-- Latest compiled and minified CSS -->
@@ -29,6 +32,11 @@
 	</head>
 	
 	<body>
+		<!-- Modal Images -->
+		<div id="myModal" class="modal">
+			<img class="modal-content" id="img01">
+		</div>
+
 		<div class="container-fluid fill-height">
 
 			<div class="row">
@@ -63,12 +71,14 @@
 				<div class="cat_body d-flex flex-column p-2">
 					<div id="img1" class="row justify-content-center">
 						<div class="col-4">
-							<img class="img-thumbnail" src="img/two_face.jpg">
+							<img id="myImg" class="img-thumbnail" src="img/two_face.jpg">
 						</div>
 						<div class="col-4 row align-items-center">
 							<div>DESSIN KRO BO</div>
 						</div>
 					</div>
+
+					
 
 					<div id="img2" class="row justify-content-center">
 						<div class="col-4 row align-items-center">
