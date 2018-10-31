@@ -10,7 +10,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="js/modal_images.js"></script>
 		<script src="js/gotopbtn.js"></script>
-		<script src="js/scroll_animation.js"></script>
+		<script src="js/scroll_categories.js"></script>
 
 		<link rel="stylesheet" href="css/style.css">
 
@@ -42,8 +42,10 @@
 				<span class="rounded">Click anywhere to close.</span>
 			</div>
 
-			<img class="modal-content" id="img01">
+			<img class="modal-content">
 		</div>
+
+
 
 		<div class="container-fluid fill-height">
 
@@ -59,10 +61,10 @@
 								<a class="nav-link" href="#cat1">Cat1</a>
 							</li>
 							<li class="nav-item col-md">
-								<a class="nav-link">Cat2</a>
+								<a class="nav-link" href="#cat2">Cat2</a>
 							</li>
 							<li class="nav-item col-md">
-								<a class="nav-link">Cat3</a>
+								<a class="nav-link" href="#cat3">Cat3</a>
 							</li>
 						</ul>
 					</div>
@@ -77,7 +79,7 @@
 				-->
 
 				<div class="cat_body d-flex flex-column p-2">
-					<div id="img1" class="row justify-content-center">
+					<div class="row justify-content-center">
 						<div class="col-4">
 							<img class="img-thumbnail" src="img/two_face.jpg">
 						</div>
@@ -86,7 +88,7 @@
 						</div>
 					</div>
 
-					<div id="img2" class="row justify-content-center">
+					<div class="row justify-content-center">
 						<div class="col-4 row align-items-center">
 							<span class="ml-auto">DESSIN KRO BO 2</span>
 						</div>
@@ -95,7 +97,7 @@
 						</div>
 					</div>
 
-					<div id="img3" class="row justify-content-center">
+					<div class="row justify-content-center">
 						<div class="col-4">
 							<img class="img-thumbnail" src="img/kanna.png">
 						</div>
@@ -105,9 +107,88 @@
 					</div>
 				</div>
 			</div>
+
+			<div id="cat2" class="cat d-flex flex-column">
+				<!--
+				<div class="cat_title row justify-content-center m-4">
+					<div>Catégorie 1</div>
+				</div>
+				-->
+
+				<div class="cat_body d-flex flex-column p-2">
+					<div class="row justify-content-center">
+						<div class="col-4 row align-items-center">
+							<span class="ml-auto">Bla bla bla 2</span>
+						</div>
+						<div class="col-4">
+							<img class="img-thumbnail" src="img/image1.jpg">
+						</div>
+					</div>
+
+					<div class="row justify-content-center">
+						<div class="col-4">
+							<img class="img-thumbnail" src="img/image2.jpg">
+						</div>
+						<div class="col-4 row align-items-center">
+							<span>Bla bla bla 3</span>
+						</div>
+					</div>
+
+					<div class="row justify-content-center">
+						<div class="col-4 row align-items-center">
+							<span class="ml-auto">Bla bla bla 4</span>
+						</div>
+						<div class="col-4">
+							<img class="img-thumbnail" src="img/image3.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="cat3" class="cat d-flex flex-column">
+				<!--
+				<div class="cat_title row justify-content-center m-4">
+					<div>Catégorie 1</div>
+				</div>
+				-->
+
+				<div class="cat_body d-flex flex-column p-2">
+					<div class="row justify-content-center">
+						<div class="col-4">
+							<img class="img-thumbnail" src="img/image4.jpg">
+						</div>
+						<div class="col-4 row align-items-center">
+							<span>Bla bla bla 5</span>
+						</div>
+					</div>
+
+					<div class="row justify-content-center">
+						<div class="col-4 row align-items-center">
+							<span class="ml-auto">Bla bla bla 6</span>
+						</div>
+						<div class="col-4">
+							<img class="img-thumbnail" src="img/petit_garcon.png">
+						</div>
+					</div>
+
+					<div class="row justify-content-center">
+						<div class="col-4">
+							<img class="img-thumbnail" src="img/image5.jpg">
+						</div>
+						<div class="col-4 row align-items-center">
+							<span>Bla bla bla 7</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
 
-		<div class="scroll_animation"><div class="scroll_bar"></div></div>
+		<div class="scroll_categories">
+			<a id="scroll_cat1" href="#cat1"><i class="fas fa-circle"></i></a>
+			<a id="scroll_cat2" href="#cat2"><i class="far fa-circle"></i></a>
+			<a id="scroll_cat3" href="#cat3"><i class="far fa-circle"></i></a>
+		</div>
 		<a class="gotopbtn" href="#"><i class="fas fa-chevron-up"></i></a>
 
 	</body>
