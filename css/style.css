@@ -121,3 +121,23 @@ body > .container-fluid > .row > .col-12 {
 	color: #ecf0f1;
 	box-shadow: 0px 0px 5px #123a54;
 }
+
+.scroll_animation {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 5px;
+	width: 12px;
+	height: 50vh;
+	border: 1px solid #2c3e50;
+}
+
+.scroll_bar {
+	width: 3px;
+	height: 20vh;
+	position: absolute;
+	top: 0vh;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #2c3e50;
+}
