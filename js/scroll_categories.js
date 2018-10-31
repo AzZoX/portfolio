@@ -4,8 +4,8 @@ $(document).ready(function(){
 
 	function setDarkDot(id) {
 		current_clicked_id = id;
-		$(".scroll_categories > a > i").removeClass("fas fa-dot-circle"); //Supprime le point noir de tous les cat.
-		$("#" + id).find("i").addClass("fas fa-circle"); //Ajout du point noir sur la premiere cat.
+		$(".scroll_categories > a > i").removeClass("fas fa-dot-circle").addClass("far fa-circle"); //Supprime le point noir de tous les cat.
+		$("#" + id + " > i").addClass("fas fa-circle"); //Ajout du point noir.
 	}
 
 	// Scroll Boutons
