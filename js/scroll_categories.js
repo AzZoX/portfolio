@@ -46,8 +46,6 @@ $(document).ready(function(){
 
 	// Scroll case
 	$(window).scroll(function(){
-
-		// $(".debug").text(scrollTopValue + " / " + $("#cat1").offset().top);
 		
 		if ($(this).scrollTop() < $("#cat2").offset().top - 5) {
 			setDarkDot("scroll_cat1");
