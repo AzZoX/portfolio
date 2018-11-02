@@ -134,9 +134,3 @@ body > .container-fluid > .row > .col-12 {
 	text-decoration: none;
 	color: #2c3e50;
 }
-
-.debug {
-	position: fixed;
-	bottom: 20px;
-	left: 20px;
-}
